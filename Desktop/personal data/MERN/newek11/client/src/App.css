@@ -1,0 +1,318 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.logoimg
+{
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+.headwithbg {
+  background-image: url('./assets/headbg.png');
+  background-size: cover;
+  width: 100%;
+  margin-right: 0px;
+  height: 55%;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CreateBook {
+  background-color: #f3f3f4;
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowBookDetails {
+  background-color: #f7f8fa;
+  min-height: 100vh;
+  color: white;
+}
+
+.UpdateBookInfo {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowBookList {
+  background-color: #e6e8eb;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: white;
+}
+
+/* BookList Styles */
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+.card-container {
+  width: 250px;
+  border: 1px solid rgba(0,0,.125);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.desc {
+  height: 130px;
+  padding: 10px;
+}
+
+.desc h2 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.desc h3, p {
+  font-weight: 300;
+}
+
+.desc h3 {
+  color: #6c757d;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+}
+
+.ek11
+{
+  background-color: #465055;
+  margin-top: 25%;
+  
+  padding-right: 55%;
+  padding-left: 100px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.connect
+{
+  color: white;
+  padding: 20px;
+  text-shadow: #465055;
+  
+}
+.connectbutton
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.links
+{
+  padding-left: 25px;
+ 
+}
+.menudivision
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.groupphoto
+{
+  background-image: url('./assets/grouppic.png');
+  background-size:contain;
+  width: 100%;
+  margin-right: 0px;
+ 
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+}
+.greenquote
+{
+  background-color: #65742B;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Rubik:wght@300&display=swap');
+
+.cricboyimg
+{
+  height: 300px;
+  width: 250px;
+  padding: 50px;
+ 
+  
+}
+@media screen and (max-width: 977px)
+{
+    .greenimage
+    {
+      display: none;
+    }
+}
+.grppic
+{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.groupphoto {
+  /* The image used */
+  background-image: url("./assets/grouppic.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourimpact
+{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  color: #65742B;
+  padding-top: 10%;
+  padding-left: 5%;
+  text-align: center;
+  padding-bottom: 10%;
+  
+}
+.impactnumbers
+{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  color: #65742B;
+  padding-top: 10%;
+  text-align: center;
+  padding-bottom: 10%;
+  
+}
+.impactnumbers h1
+{
+  color: #3a4219;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.players
+{
+  background-color: #000000;
+  padding-top: 50px;
+  color: #d2cdcd;
+  text-align: center;
+}
+.playerdata
+{
+  padding-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
+
+}
+.playerimage
+{
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
+}
+.players h5{
+  color: #ffffffa9;
+}
+.players h6
+{
+  color: #ffffff63;
+}
+.connectwithdeveloper{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+.content
+{
+  display: none;
+  color: #000000;
+  width: 50%;
+}
+.content h5{
+  color: #000000;
+}
+#textgame {
+  background-color: #ffffff;
+  color:  #65742B;
+  font-weight: 400;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 6px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+#textgame span {
+  display: inline-block;
+}
+
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+.card{
+  width: 50%;
+  
+}
